@@ -16,4 +16,8 @@ public class Vendedor {
     private String cnpj;
 
     private String email;
+
+    public Vendedor(Long id){
+        this.id = id;
+    }
 }

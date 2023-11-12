@@ -10,7 +10,7 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 public class Venda {
-    
+
     private Long id;
 
     private LocalDateTime dataVenda;
@@ -18,4 +18,8 @@ public class Venda {
     private Usuario usuario;
 
     private Vendedor vendedor;
+
+    public Venda(Long id) {
+        this.id = id;
+    }
 }
